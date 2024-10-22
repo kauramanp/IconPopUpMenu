@@ -29,6 +29,15 @@ class MainActivity : AppCompatActivity() {
             popUpMenu.setOnMenuItemClickListener {
                 return@setOnMenuItemClickListener true
             }
+            popUpMenu.show()
+        }
+
+        binding.btnCustomLayout.setOnClickListener{
+            var popUpMenu = PopupMenu(this@MainActivity, it)
+            popUpMenu.inflate(R.menu.pop_up_menu)
+            popUpMenu.setOnMenuItemClickListener {
+                return@setOnMenuItemClickListener true
+            }
 
             try{
                 val popUp = PopupMenu::class.java.getDeclaredField("mPopup")
