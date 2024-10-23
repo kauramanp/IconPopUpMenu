@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10">
+
+            <ImageView
+                android:id="@+id/ivPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tint="@color/purple"
+                android:src="@drawable/ic_play" />
+
+            <TextView
+                android:id="@+id/tvPlay"
+                style="@style/MaterialAlertDialog.Material3.Title.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingHorizontal="@dimen/dp_10"
+                android:text="@string/play" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10">
+
+            <ImageView
+                android:id="@+id/ivPause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tint="@color/purple"
+                android:src="@drawable/ic_pause" />
+
+            <TextView
+                android:id="@+id/tvPause"
+                style="@style/MaterialAlertDialog.Material3.Title.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingHorizontal="@dimen/dp_10"
+                android:text="@string/pause" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10">
+
+            <ImageView
+                android:id="@+id/ivStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tint="@color/purple"
+                android:src="@drawable/ic_stop" />
+
+            <TextView
+                android:id="@+id/tvStop"
+                style="@style/MaterialAlertDialog.Material3.Title.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingHorizontal="@dimen/dp_10"
+                android:text="@string/stop" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

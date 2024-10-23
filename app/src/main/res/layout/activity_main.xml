@@ -14,19 +14,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/show_pop_up_menu"
-        app:layout_constraintBottom_toTopOf="@+id/btnCustomLayout"
+        app:layout_constraintBottom_toTopOf="@+id/btnIconPopUpLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <Button
-        android:id="@+id/btnCustomLayout"
+        android:id="@+id/btnIconPopUpLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/show_pop_up_menu"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/show_pop_up_menu_with_icons"
+        app:layout_constraintBottom_toTopOf="@+id/btnCustomPopUpLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPopUpMenu" />
+    <Button
+        android:id="@+id/btnCustomPopUpLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_custom_pop_up_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIconPopUpLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

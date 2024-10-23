@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">PopUpMenu</string>
     <string name="show_pop_up_menu">Show Pop up menu</string>
+    <string name="show_pop_up_menu_with_icons">Show Pop up menu with icon</string>
+    <string name="show_custom_pop_up_menu">Show Custom Pop up menu</string>
     <string name="play">Play</string>
     <string name="pause">Pause</string>
     <string name="stop">Stop</string>
