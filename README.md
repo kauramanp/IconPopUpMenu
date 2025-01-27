@@ -10,7 +10,6 @@ This project demonstrates the implementation of Popup Windows in Android using b
 - **Popup Menu with Icons:** A customized popup menu with visible icons.</li>
 - **Custom Layout Popup Window:** A popup window using a custom layout for a more personalized user experience.</li>
  
-
 ---
 ## Prerequisites
 - Android Studio **Chipmunk** or later.
